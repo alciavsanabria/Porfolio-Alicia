@@ -1,0 +1,96 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    color: #1a1718;
+    padding-top: 70px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+
+  .menu-item {
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .menu-item:hover {
+   background-color:pink;
+   border-radius: 10px;
+   transition: all 0.4s ease-in-out;
+  } 
+  header {
+    background-color: #000000;
+    color: pink;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+section {
+  padding: 20px;
+  border: 1px solid rgb(228, 110, 159);
+  margin-bottom: 20px;
+}
+#acerca-de-mi {
+  text-align: justify;
+  padding: 20px;
+  border: 1px solid rgb(255, 33, 126);
+  margin-bottom: 20px;
+}
+#habilidades ul{
+  list-style: none;
+  padding: 0;
+}
+#habilidades ul li {
+   display: inline-block;
+   padding: 5px;
+   border: 1px solid rgb(228, 110, 159);
+   border-radius: 20px;
+   margin-right: 10px;
+}
+#experiencia ul li {
+  margin-bottom: 10px;
+}
+
+#idiomas ul li {
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+#contacto {
+  list-style: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+#sociales {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+#sociales li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+
+}
+.fa {
+  color: #ff0998;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+footer {
+  background-color: #110b0e;
+  color: pink;
+  text-align: center;
+  padding: 20px;
+}
+
+
